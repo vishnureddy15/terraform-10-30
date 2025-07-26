@@ -34,6 +34,11 @@ variable "tags" {
   } 
 }
 
+variable "region" {
+  description = "AWS region to use"
+  type        = string
+}
+
 # s3 bucket
 variable "aws_s3_bucket" {
     description = "s3 bucket unique name"
